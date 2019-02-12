@@ -3,21 +3,27 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .main {
     display: flex;
     margin-top: 15%;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     background-color: black;
 }
+
 .main__title {
     font: 70px/20px Thasadith, sans;
     text-decoration: none;
     margin-top: 50px;
     display: flex;
     color: white;
+
 }
+
+
 .main__des {
     display: flex;
     text-align: center;
@@ -25,4 +31,13 @@ body {
     font: 50px/80px Pacifico, cursive;
     text-decoration: none;
     margin-top: 100px;
+}
+
+@media (max-width: 420px) {
+    .main__title {
+        font: 32px/20px Thasadith, cursive;
+    }
+    .main__des {
+        font: 19px/28px Pacifico, cursive;
+    }
 }
